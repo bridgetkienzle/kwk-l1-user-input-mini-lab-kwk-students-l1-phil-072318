@@ -17,6 +17,6 @@ puts "Where would you like to eat?"
 eat = gets.chomp.downcase
 
 puts "How long would you like to stay?"
-duration = gets.chomp
+nights = gets.chomp
 
-puts "You are going to stay at #{stay}. You will eat at #{eat}. You will stay for #{duration} night(s)"
+puts "You are going to stay at #{stay}. You will eat at #{eat}. You will stay for #{nights} night(s)"
